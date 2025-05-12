@@ -10,7 +10,7 @@ const PORT = 5000;
 app.use(express.json()); // Middleware to parse JSON request body
 
 const MONGODB_URL =
-  "mongodb+srv://Steev:Steev@cluster0.uf3jdv0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+  "";
 
 
 mongoose.connect(MONGODB_URL).then (()=> {
